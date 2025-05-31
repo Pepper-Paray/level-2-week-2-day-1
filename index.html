@@ -1,97 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>drift track form</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Daytona</title>
 </head>
+<h1>Drift Track Form</h1>
 <div>
     <h4>
-       <a href="https://powervehicles.com/drift-cars-for-sale/">Buy A Drift Car</a>
+        <a href="https://powervehicles.com/drift-cars-for-sale/">Buy A Drift Car</a>
     </h4>
-</div>
-<body>
-    <header>
-        <p>
+    <h4>
+        <a href="https://www.youtube.com/watch?v=8b1c2d3e4f5">Watch Drift Videos</a>
+    </h4>
+
+    <body>
+        <header>
+            <p>
             <h4>
-               <a href="http://github.com/Pepper-Paray">My Github profile</a>
+                <a href="http://github.com/Pepper-Paray">My Github profile</a>
             </h4>
-        </p>
+            </p>
 
-    </header>
-    <main>
-        <div class="container">
-  <div class="item">1. Drift Track 1 east coast</div>
-  <div class="item">2. Drift Track 2 center coast</div>
-  <div class="item">3. Drift Track 3 west coast</div>
-</div>
-    <div class="image-container"></div>
+        </header>
+        <main>
+            <div class="container">
+                <div class="item">1. Drift Track 1 east coast</div>
+                <div class="item">2. Drift Track 2 center coast</div>
+                <div class="item">3. Drift Track 3 west coast</div>
+            </div>
+            <div class="image-container"></div>
 
-        <br>
-      <section>
-        <h1>Drift Track Form</h1>
-        <form action ="https://example.com/submit" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="comments">Comments:</label>
-            <textarea id="comments" name="comments" rows="4" cols="50" required></textarea>
-            
-            <button type="submit">Submit</button>
-        </form>
-      </section>
-        <br>
-        <section>
-            <h2>Drift Track Selection</h2>
-            <p>Please select your preferred drift track from the options below:</p>
-            <form action="https://example.com/submit-track" method="post">
-                <label for="track-select">Choose a track:</label>
-                <select id="track-select" name="track-select">
-                    <option value="track1">Track 1</option>
-                    <option value="track2">Track 2</option>
-                    <option value="track3">Track 3</option>
-                </select>
-                <button type="submit">Submit</button>
-            </form>
-        </section>
-       <br>
-        <section>
-            <h2>Track Information</h2>
-            <pre>
+            <br>
+            <style>
+                .image-container {
+                    width: 400px;
+                    height: 300px;
+                    display: flex;
+                    /* Enables flexbox for alignment */
+                    justify-content: center;
+                    align-items: center;
+                    border: 2px solid black;
+                }
+
+                .image-container img {
+                    width: 100%;
+                    /* Makes the image fit inside */
+                    height: auto;
+                    /* Keeps aspect ratio */
+                    border-radius: 10px;
+                    /* Rounds the corners */
+                }
+            </style>
+            <section>
+                <h1>Drift Track Form</h1>
+                <form action="https://example.com/submit" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="comments">Comments:</label>
+                    <textarea id="comments" name="comments" rows="4" cols="50" required></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+            <div class="container"></div>
+
+            <br>
+            <section>
+                <h2>Drift Track Selection</h2>
+                <p>Please select your preferred drift track from the options below:</p>
+                <form action="https://example.com/submit-track" method="post">
+                    <label for="track-select">Choose a track:</label>
+                    <select id="track-select" name="track-select">
+                        <option value="track1">Track 1</option>
+                        <option value="track2">Track 2</option>
+                        <option value="track3">Track 3</option>
+                    </select>
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+            <br>
+            <section>
+                <h2>Track Information</h2>
+                <pre>
              Track 1: The track is left-handed, sharp and is only one mile in circumference.
             Track 2: The track is right-handed, wide and is two miles in circumference.
             Track 3: The track is oval-shaped and is three miles in circumference.
             </pre>
-            <p>Choose your preferred drift track from the options above.</p>
-        </section>
-        <br>
-        <section>
-            <h2>Contact Information</h2>
-            <p>If you have any questions, please contact us at <a href="mailto:support@example.com">support@example.com</a>.</p>
-        </section>
-        <br>
-        <flexbox>
-            <h2>Follow Us</h2>
-            <p>Stay updated with our latest news and events:</p>
-            <ul>
-                <li><a href="https://www.facebook.com/DriftTrack">Facebook</a></li>
-                <li><a href="https://www.twitter.com/DriftTrack">Twitter</a></li>
-                <li><a href="https://www.instagram.com/DriftTrack">Instagram</a></li>
-            </ul>
-    </main>
-    <a href="https://wallpaperbat.com/img/812748-jdm-drifting-wallpaper-wallpaper-most-popular-jdm-drifting-wallpaper-background.jpg">"Tires may scream, but the driver never does."</a>
-    <footer>
-        <p>© march cohort 2025</p>
-        <nav>
-            <ul>
-                <li><a href="#privacy">Privacy Policy</a></li>
-                <li><a href="#terms">Terms of Service</a></li>
-                <li><a href="#contact">Contact Us</a></li>
-            </ul>
-        </nav>
-    </footer>
-</body>
+                <p>Choose your preferred drift track from the options above.</p>
+            </section>
+            <br>
+            <section>
+                <h2>Contact Information</h2>
+                <p>If you have any questions, please contact us at <a
+                        href="mailto:support@example.com">support@example.com</a>.</p>
+            </section>
+            <br>
+            <flexbox>
+                <h2>Follow Us</h2>
+                <p>Stay updated with our latest news and events:</p>
+                <ul>
+                    <li><a href="https://www.facebook.com/DriftTrack">Facebook</a></li>
+                    <li><a href="https://www.twitter.com/DriftTrack">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/DriftTrack">Instagram</a></li>
+                </ul>
+        </main>
+        <a
+            href="https://wallpaperbat.com/img/812748-jdm-drifting-wallpaper-wallpaper-most-popular-jdm-drifting-wallpaper-background.jpg">"Tires
+            may scream, but the driver never does."</a>
+        <footer>
+            <p>© march cohort 2025</p>
+            <nav>
+                <ul>
+                    <li><a href="#privacy">Privacy Policy</a></li>
+                    <li><a href="#terms">Terms of Service</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+
 </html>
