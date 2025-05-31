@@ -18,14 +18,30 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #495057;
+    text-box: 1;
 }
 main {
-    padding: 1rem;
+   .container {
+  display: flex; /* Enables Flexbox */
+  justify-content: center; /* Aligns items horizontally */
+  align-items: center; /* Aligns items vertically */
+  gap: 10px; /* Adds spacing between items */
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+}
+ 
 }
 footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #f8f9fa;
     padding: 1rem;
-    text-align: center;
     font-size: 0.875rem;
     color: #6c757d;
-}
+    text-align: center;
+}   
