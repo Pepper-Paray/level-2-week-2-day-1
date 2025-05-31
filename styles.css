@@ -1,0 +1,27 @@
+header{
+    background-color: #414f5473; /* Green background */
+    color: black; /* Black text */
+    padding: 10px; /* Some padding */
+    text-align: center; /* Centered text */ 
+    font-size: 24px; /* Larger font size */
+}
+body{
+    font-family: Arial, sans-serif; /* Clean font */
+    margin: 0 auto; /* Remove default margin */
+    padding: 20px; /* Some padding around the content */
+    background-color: black; /* Background image */
+    background-size: full; /* Cover the entire background */
+}
+nav{
+    background-color: #5a3e45; /* Dark background */
+    color: rgb(135, 110, 110); /* Maroon text */
+    padding: 10px; /* Some padding */
+    text-align: center; /* Centered text */
+}   
+footer{
+    background-color: #a01b1b84; /* Light grey background */
+    color: black; /* Black text */
+    padding: 10px; /* Some padding */
+    text-align: center; /* Centered text */
+    font-size: 14px; /* Smaller font size */
+}
